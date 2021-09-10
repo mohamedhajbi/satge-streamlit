@@ -4,7 +4,7 @@ import plotly.express as px
 import base64  
 from io import StringIO, BytesIO  
 import time
-import openpyxl
+
 
 def generate_excel_download_link(df):
     towrite = BytesIO()
